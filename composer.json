@@ -1,0 +1,41 @@
+{
+  "name": "born05/craft-subscribe",
+  "description": "A Module for subscribing user info to a CRM",
+  "type": "craft-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Niels Wijers",
+      "homepage": "https://born05.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0 || ^4.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "born05\\craftsubscribe\\": "src/"
+    }
+  },
+  "support": {
+    "email": "development@born05.com",
+    "issues": "https://github.com/born05/craft-subscribe/issues",
+    "source": "https://github.com/born05/craft-subscribe",
+    "docs": "https://github.com/born05/craft-subscribe/blob/craft-4/README.md",
+    "rss": "https://github.com/born05/craft-subscribe/releases.atom"
+  },
+  "extra": {
+    "name": "Craft Subscribe",
+    "handle": "craft-subscribe",
+    "developer": "Born05",
+    "developerUrl": "https://born05.com",
+    "documentationUrl": "https://github.com/born05/craft-subscribe",
+    "changelogUrl": "https://raw.githubusercontent.com/born05/craft-subscribe/craft-4/CHANGELOG.md"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
