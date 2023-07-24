@@ -16,7 +16,7 @@ class SubscribeController extends Controller
     /**
      * @inheritdoc
      */
-    protected array|int|bool $allowAnonymous = true;
+    protected $allowAnonymous = self::ALLOW_ANONYMOUS_LIVE;
 
     // Public Methods
     // =========================================================================
